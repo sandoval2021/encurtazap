@@ -146,8 +146,8 @@ export default function App() {
           top-0
           z-50
           border-b
-          border-white/[0.06]
-          bg-[#090b0f]/90
+          border-slate-200
+          bg-white/90
           backdrop-blur-xl
         "
       >
@@ -181,7 +181,8 @@ export default function App() {
                 justify-center
                 rounded-xl
                 bg-[#25D366]
-                text-[#06140b]
+                text-emerald-950
+                shadow-sm
               "
             >
               <MessageCircle
@@ -196,7 +197,7 @@ export default function App() {
                 text-sm
                 font-bold
                 tracking-tight
-                text-white
+                text-slate-900
                 sm:text-base
               "
             >
@@ -212,10 +213,10 @@ export default function App() {
               py-2
               text-sm
               font-medium
-              text-slate-400
+              text-slate-600
               transition
-              hover:bg-white/5
-              hover:text-white
+              hover:bg-slate-100
+              hover:text-slate-900
             "
           >
             Como funciona
@@ -254,13 +255,13 @@ export default function App() {
                 gap-2
                 rounded-full
                 border
-                border-[#25D366]/20
-                bg-[#25D366]/5
+                border-[#25D366]/30
+                bg-[#25D366]/10
                 px-3
                 py-1.5
                 text-xs
                 font-semibold
-                text-[#25D366]
+                text-emerald-700
               "
             >
               <Sparkles
@@ -278,7 +279,7 @@ export default function App() {
                 text-3xl
                 font-black
                 tracking-tight
-                text-white
+                text-slate-900
                 sm:text-4xl
                 lg:text-5xl
               "
@@ -296,7 +297,7 @@ export default function App() {
                 max-w-2xl
                 text-base
                 leading-relaxed
-                text-slate-400
+                text-slate-600
                 sm:text-lg
               "
             >
@@ -396,7 +397,7 @@ export default function App() {
                 font-bold
                 uppercase
                 tracking-[0.16em]
-                text-[#25D366]
+                text-emerald-600
               "
             >
               Link para WhatsApp
@@ -407,7 +408,7 @@ export default function App() {
                 text-2xl
                 font-black
                 tracking-tight
-                text-white
+                text-slate-900
                 sm:text-3xl
               "
             >
@@ -420,7 +421,7 @@ export default function App() {
                 mt-4
                 text-base
                 leading-8
-                text-slate-400
+                text-slate-600
               "
             >
               Um link direto para WhatsApp
@@ -448,9 +449,10 @@ export default function App() {
               className="
                 rounded-3xl
                 border
-                border-white/10
-                bg-[#111318]
+                border-slate-200
+                bg-white
                 p-5
+                shadow-sm
               "
             >
               <div
@@ -475,7 +477,7 @@ export default function App() {
               <h3
                 className="
                   font-bold
-                  text-white
+                  text-slate-900
                 "
               >
                 Menos atrito
@@ -486,7 +488,7 @@ export default function App() {
                   mt-2
                   text-sm
                   leading-6
-                  text-slate-400
+                  text-slate-600
                 "
               >
                 Um único clique pode abrir a
@@ -499,9 +501,10 @@ export default function App() {
               className="
                 rounded-3xl
                 border
-                border-white/10
-                bg-[#111318]
+                border-slate-200
+                bg-white
                 p-5
+                shadow-sm
               "
             >
               <div
@@ -526,7 +529,7 @@ export default function App() {
               <h3
                 className="
                   font-bold
-                  text-white
+                  text-slate-900
                 "
               >
                 Fácil de compartilhar
@@ -537,7 +540,7 @@ export default function App() {
                   mt-2
                   text-sm
                   leading-6
-                  text-slate-400
+                  text-slate-600
                 "
               >
                 Use seu link no Instagram,
@@ -550,9 +553,10 @@ export default function App() {
               className="
                 rounded-3xl
                 border
-                border-white/10
-                bg-[#111318]
+                border-slate-200
+                bg-white
                 p-5
+                shadow-sm
               "
             >
               <div
@@ -577,7 +581,7 @@ export default function App() {
               <h3
                 className="
                   font-bold
-                  text-white
+                  text-slate-900
                 "
               >
                 Online e offline
@@ -588,7 +592,7 @@ export default function App() {
                   mt-2
                   text-sm
                   leading-6
-                  text-slate-400
+                  text-slate-600
                 "
               >
                 Transforme o link em QR Code
@@ -605,7 +609,7 @@ export default function App() {
                 text-2xl
                 font-black
                 tracking-tight
-                text-white
+                text-slate-900
               "
             >
               Como usar um link do WhatsApp
@@ -623,7 +627,7 @@ export default function App() {
                   className="
                     text-lg
                     font-bold
-                    text-slate-100
+                    text-slate-900
                   "
                 >
                   Instagram e redes sociais
@@ -633,7 +637,7 @@ export default function App() {
                   className="
                     mt-2
                     leading-7
-                    text-slate-400
+                    text-slate-600
                   "
                 >
                   Coloque seu link de
@@ -653,7 +657,7 @@ export default function App() {
                   className="
                     text-lg
                     font-bold
-                    text-slate-100
+                    text-slate-900
                   "
                 >
                   Sites e páginas de venda
@@ -663,7 +667,7 @@ export default function App() {
                   className="
                     mt-2
                     leading-7
-                    text-slate-400
+                    text-slate-600
                   "
                 >
                   Botões de atendimento por
@@ -684,7 +688,7 @@ export default function App() {
                   className="
                     text-lg
                     font-bold
-                    text-slate-100
+                    text-slate-900
                   "
                 >
                   QR Code para atendimento
@@ -694,7 +698,7 @@ export default function App() {
                   className="
                     mt-2
                     leading-7
-                    text-slate-400
+                    text-slate-600
                   "
                 >
                   O QR Code permite levar
@@ -714,8 +718,8 @@ export default function App() {
               className="
                 rounded-3xl
                 border
-                border-[#25D366]/15
-                bg-[#25D366]/[0.04]
+                border-emerald-200
+                bg-emerald-50
                 p-6
                 sm:p-8
               "
@@ -742,7 +746,7 @@ export default function App() {
                     className="
                       text-xl
                       font-black
-                      text-white
+                      text-slate-900
                     "
                   >
                     Privacidade por padrão
@@ -752,7 +756,7 @@ export default function App() {
                     className="
                       mt-3
                       leading-7
-                      text-slate-400
+                      text-slate-600
                     "
                   >
                     Este gerador funciona
@@ -782,7 +786,7 @@ export default function App() {
                 text-2xl
                 font-black
                 tracking-tight
-                text-white
+                text-slate-900
               "
             >
               Perguntas frequentes sobre
@@ -793,9 +797,9 @@ export default function App() {
               className="
                 mt-7
                 divide-y
-                divide-white/[0.07]
+                divide-slate-200
                 border-y
-                border-white/[0.07]
+                border-slate-200
               "
             >
               <div className="py-6">
@@ -803,7 +807,7 @@ export default function App() {
                   className="
                     text-lg
                     font-bold
-                    text-white
+                    text-slate-900
                   "
                 >
                   Como criar um link de
@@ -814,7 +818,7 @@ export default function App() {
                   className="
                     mt-3
                     leading-7
-                    text-slate-400
+                    text-slate-600
                   "
                 >
                   Escolha o DDI do país,
@@ -834,7 +838,7 @@ export default function App() {
                   className="
                     text-lg
                     font-bold
-                    text-white
+                    text-slate-900
                   "
                 >
                   O gerador de link do
@@ -845,7 +849,7 @@ export default function App() {
                   className="
                     mt-3
                     leading-7
-                    text-slate-400
+                    text-slate-600
                   "
                 >
                   Sim. Você pode criar,
@@ -863,7 +867,7 @@ export default function App() {
                   className="
                     text-lg
                     font-bold
-                    text-white
+                    text-slate-900
                   "
                 >
                   Como fazer um link com
@@ -874,7 +878,7 @@ export default function App() {
                   className="
                     mt-3
                     leading-7
-                    text-slate-400
+                    text-slate-600
                   "
                 >
                   Informe o número do
@@ -896,7 +900,8 @@ export default function App() {
       <footer
         className="
           border-t
-          border-white/[0.06]
+          border-slate-200
+          bg-slate-50
         "
       >
         <div
@@ -912,7 +917,7 @@ export default function App() {
             py-8
             text-center
             text-xs
-            text-slate-600
+            text-slate-500
             sm:flex-row
             sm:px-6
             sm:text-left

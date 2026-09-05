@@ -10,8 +10,8 @@ export default function AdSensePlaceholder() {
         overflow-hidden
         rounded-2xl
         border
-        border-white/10
-        bg-white/[0.025]
+        border-slate-200
+        bg-slate-50
         p-4
       "
     >
@@ -45,8 +45,8 @@ export default function AdSensePlaceholder() {
           rounded-xl
           border
           border-dashed
-          border-white/10
-          bg-black/20
+          border-slate-300
+          bg-white
           px-4
           text-center
           text-sm

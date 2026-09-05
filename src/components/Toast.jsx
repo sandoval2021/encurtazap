@@ -33,17 +33,17 @@ export default function Toast({
         gap-3
         rounded-2xl
         border
-        border-white/10
-        bg-[#15181d]
+        border-slate-200
+        bg-white
         px-4
         py-3
-        shadow-2xl
-        shadow-black/50
+        shadow-xl
+        shadow-slate-900/10
       "
     >
       {isError ? (
         <CircleAlert
-          className="shrink-0 text-red-400"
+          className="shrink-0 text-red-500"
           size={21}
           aria-hidden="true"
         />
@@ -60,7 +60,7 @@ export default function Toast({
           flex-1
           text-sm
           font-medium
-          text-slate-100
+          text-slate-900
         "
       >
         {toast.message}
@@ -73,10 +73,10 @@ export default function Toast({
         className="
           rounded-lg
           p-1.5
-          text-slate-400
+          text-slate-500
           transition
-          hover:bg-white/5
-          hover:text-white
+          hover:bg-slate-100
+          hover:text-slate-900
         "
       >
         <X

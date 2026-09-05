@@ -108,9 +108,10 @@ const QRCodePanel = forwardRef(
           mt-5
           rounded-3xl
           border
-          border-white/10
-          bg-[#111318]
+          border-slate-200
+          bg-white
           p-5
+          shadow-sm
         "
       >
         <div
@@ -145,7 +146,7 @@ const QRCodePanel = forwardRef(
               id="qr-heading"
               className="
                 font-semibold
-                text-white
+                text-slate-900
               "
             >
               QR Code do WhatsApp
@@ -156,7 +157,7 @@ const QRCodePanel = forwardRef(
                 mt-1
                 text-sm
                 leading-relaxed
-                text-slate-400
+                text-slate-600
               "
             >
               Ideal para cartões, panfletos,
@@ -174,8 +175,8 @@ const QRCodePanel = forwardRef(
             justify-center
             rounded-2xl
             border
-            border-white/5
-            bg-[#0b0d10]
+            border-slate-200
+            bg-slate-50
             p-4
           "
         >
@@ -185,6 +186,9 @@ const QRCodePanel = forwardRef(
                 rounded-2xl
                 bg-white
                 p-3
+                shadow-sm
+                ring-1
+                ring-slate-200
               "
             >
               <QRCodeCanvas
@@ -210,7 +214,7 @@ const QRCodePanel = forwardRef(
                 className="
                   mx-auto
                   mb-3
-                  text-slate-600
+                  text-slate-400
                 "
               />
 
@@ -218,7 +222,7 @@ const QRCodePanel = forwardRef(
                 className="
                   text-sm
                   font-medium
-                  text-slate-300
+                  text-slate-700
                 "
               >
                 Mensagem grande demais para
@@ -245,7 +249,7 @@ const QRCodePanel = forwardRef(
                 className="
                   mx-auto
                   mb-3
-                  text-slate-700
+                  text-slate-300
                 "
               />
 

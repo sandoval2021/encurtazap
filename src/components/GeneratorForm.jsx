@@ -155,11 +155,11 @@ export default function GeneratorForm({
       className="
         rounded-3xl
         border
-        border-white/10
-        bg-[#111318]
+        border-slate-200
+        bg-white
         p-4
-        shadow-2xl
-        shadow-black/20
+        shadow-lg
+        shadow-slate-900/5
         sm:p-6
       "
     >
@@ -195,7 +195,7 @@ export default function GeneratorForm({
             className="
               text-lg
               font-bold
-              text-white
+              text-slate-900
             "
           >
             Crie seu link agora
@@ -206,7 +206,7 @@ export default function GeneratorForm({
               mt-1
               text-sm
               leading-relaxed
-              text-slate-400
+              text-slate-600
             "
           >
             Informe o número e deixe sua
@@ -231,7 +231,7 @@ export default function GeneratorForm({
                 block
                 text-sm
                 font-medium
-                text-slate-300
+                text-slate-700
               "
             >
               DDI
@@ -250,15 +250,15 @@ export default function GeneratorForm({
                 w-full
                 rounded-xl
                 border
-                border-white/10
-                bg-[#090b0f]
+                border-slate-200
+                bg-white
                 px-3
                 text-sm
-                text-white
+                text-slate-900
                 outline-none
                 transition
-                focus:border-[#25D366]/60
-                focus:ring-2
+                focus:border-[#25D366]
+                focus:ring-4
                 focus:ring-[#25D366]/10
               "
             >
@@ -283,7 +283,7 @@ export default function GeneratorForm({
                 block
                 text-sm
                 font-medium
-                text-slate-300
+                text-slate-700
               "
             >
               Número do celular
@@ -299,7 +299,7 @@ export default function GeneratorForm({
                   left-3.5
                   top-1/2
                   -translate-y-1/2
-                  text-slate-500
+                  text-slate-400
                 "
               />
 
@@ -328,17 +328,17 @@ export default function GeneratorForm({
                   w-full
                   rounded-xl
                   border
-                  border-white/10
-                  bg-[#090b0f]
+                  border-slate-200
+                  bg-white
                   pl-10
                   pr-3
                   text-base
-                  text-white
+                  text-slate-900
                   outline-none
                   transition
-                  placeholder:text-slate-600
-                  focus:border-[#25D366]/60
-                  focus:ring-2
+                  placeholder:text-slate-400
+                  focus:border-[#25D366]
+                  focus:ring-4
                   focus:ring-[#25D366]/10
                 "
               />
@@ -361,7 +361,7 @@ export default function GeneratorForm({
               className="
                 text-sm
                 font-medium
-                text-slate-300
+                text-slate-700
               "
             >
               Mensagem pronta
@@ -371,7 +371,7 @@ export default function GeneratorForm({
               className="
                 text-xs
                 tabular-nums
-                text-slate-600
+                text-slate-400
               "
             >
               {message.length}/1000
@@ -387,7 +387,7 @@ export default function GeneratorForm({
                 absolute
                 left-3.5
                 top-3.5
-                text-slate-500
+                text-slate-400
               "
             />
 
@@ -407,19 +407,19 @@ export default function GeneratorForm({
                 w-full
                 rounded-xl
                 border
-                border-white/10
-                bg-[#090b0f]
+                border-slate-200
+                bg-white
                 py-3
                 pl-11
                 pr-3
                 text-base
                 leading-relaxed
-                text-white
+                text-slate-900
                 outline-none
                 transition
-                placeholder:text-slate-600
-                focus:border-[#25D366]/60
-                focus:ring-2
+                placeholder:text-slate-400
+                focus:border-[#25D366]
+                focus:ring-4
                 focus:ring-[#25D366]/10
               "
             />
@@ -431,8 +431,8 @@ export default function GeneratorForm({
             className="
               rounded-xl
               border
-              border-white/5
-              bg-black/20
+              border-emerald-100
+              bg-emerald-50
               p-3
             "
           >
@@ -444,7 +444,7 @@ export default function GeneratorForm({
                 gap-1.5
                 text-xs
                 font-medium
-                text-[#25D366]
+                text-emerald-700
               "
             >
               <Check
@@ -459,7 +459,7 @@ export default function GeneratorForm({
               className="
                 truncate
                 text-xs
-                text-slate-500
+                text-slate-600
               "
               title={generatedLink}
             >
@@ -484,9 +484,9 @@ export default function GeneratorForm({
               px-5
               text-base
               font-bold
-              text-[#04130a]
+              text-emerald-950
               shadow-lg
-              shadow-[#25D366]/10
+              shadow-[#25D366]/20
               transition
               hover:bg-[#20c65c]
               active:scale-[0.99]
@@ -518,15 +518,15 @@ export default function GeneratorForm({
                 gap-2
                 rounded-xl
                 border
-                border-white/10
-                bg-white/5
+                border-slate-200
+                bg-slate-50
                 px-3
                 text-sm
                 font-semibold
-                text-slate-200
+                text-slate-700
                 transition
-                hover:border-white/20
-                hover:bg-white/[0.07]
+                hover:border-slate-300
+                hover:bg-slate-100
               "
             >
               <ExternalLink
@@ -548,15 +548,15 @@ export default function GeneratorForm({
                 gap-2
                 rounded-xl
                 border
-                border-white/10
-                bg-white/5
+                border-slate-200
+                bg-slate-50
                 px-3
                 text-sm
                 font-semibold
-                text-slate-200
+                text-slate-700
                 transition
-                hover:border-white/20
-                hover:bg-white/[0.07]
+                hover:border-slate-300
+                hover:bg-slate-100
               "
             >
               <Download
@@ -574,7 +574,7 @@ export default function GeneratorForm({
             text-center
             text-xs
             leading-relaxed
-            text-slate-600
+            text-slate-500
           "
         >
           Nenhum número ou mensagem é

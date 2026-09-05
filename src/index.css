@@ -10,34 +10,25 @@
     "Segoe UI",
     sans-serif;
 
-  color: #f8fafc;
-  background: #090b0f;
+  color: #0f172a;
+  background: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  color-scheme: dark;
 }
 
 html {
   scroll-behavior: smooth;
-  background: #090b0f;
+  background: #ffffff;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-
-  background:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(37, 211, 102, 0.08),
-      transparent 32rem
-    ),
-    #090b0f;
+  background: #ffffff;
 }
 
 button,
@@ -53,8 +44,8 @@ a {
 }
 
 ::selection {
-  color: #04120a;
-  background: #25d366;
+  color: #052e16;
+  background: #86efac;
 }
 
 textarea {
@@ -94,6 +85,6 @@ textarea {
 }
 
 :focus-visible {
-  outline: 3px solid rgba(37, 211, 102, 0.45);
+  outline: 3px solid rgba(37, 211, 102, 0.35);
   outline-offset: 2px;
 }

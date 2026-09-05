@@ -22,9 +22,10 @@ export default function History({
           mt-8
           rounded-3xl
           border
-          border-white/10
-          bg-[#111318]
+          border-slate-200
+          bg-white
           p-5
+          shadow-sm
         "
       >
         <div
@@ -42,7 +43,7 @@ export default function History({
               items-center
               justify-center
               rounded-xl
-              bg-white/5
+              bg-slate-100
               text-slate-500
             "
           >
@@ -57,7 +58,7 @@ export default function History({
               id="history-heading"
               className="
                 font-semibold
-                text-white
+                text-slate-900
               "
             >
               Meus Links Recentes
@@ -86,9 +87,10 @@ export default function History({
         mt-8
         rounded-3xl
         border
-        border-white/10
-        bg-[#111318]
+        border-slate-200
+        bg-white
         p-4
+        shadow-sm
         sm:p-5
       "
     >
@@ -118,7 +120,7 @@ export default function History({
             id="history-heading"
             className="
               font-semibold
-              text-white
+              text-slate-900
             "
           >
             Meus Links Recentes
@@ -139,8 +141,8 @@ export default function History({
             font-medium
             text-slate-500
             transition
-            hover:bg-red-500/10
-            hover:text-red-400
+            hover:bg-red-50
+            hover:text-red-500
           "
         >
           <Trash2
@@ -169,8 +171,8 @@ export default function History({
                 gap-3
                 rounded-2xl
                 border
-                border-white/5
-                bg-black/20
+                border-slate-200
+                bg-slate-50
                 p-3
               "
             >
@@ -204,7 +206,7 @@ export default function History({
                     truncate
                     text-sm
                     font-semibold
-                    text-slate-200
+                    text-slate-900
                   "
                 >
                   {phoneLabel}
@@ -238,11 +240,11 @@ export default function History({
                   justify-center
                   rounded-xl
                   border
-                  border-white/10
-                  bg-white/5
-                  text-slate-300
+                  border-slate-200
+                  bg-white
+                  text-slate-600
                   transition
-                  hover:border-[#25D366]/30
+                  hover:border-[#25D366]/40
                   hover:bg-[#25D366]/10
                   hover:text-[#25D366]
                 "
@@ -262,7 +264,7 @@ export default function History({
           mt-4
           text-center
           text-xs
-          text-slate-600
+          text-slate-500
         "
       >
         Histórico salvo somente neste

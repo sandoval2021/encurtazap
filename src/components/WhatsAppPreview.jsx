@@ -18,10 +18,10 @@ export default function WhatsAppPreview({
         overflow-hidden
         rounded-3xl
         border
-        border-white/10
-        bg-[#111318]
-        shadow-2xl
-        shadow-black/25
+        border-slate-200
+        bg-white
+        shadow-lg
+        shadow-slate-900/5
       "
     >
       <header
@@ -30,8 +30,8 @@ export default function WhatsAppPreview({
           items-center
           gap-3
           border-b
-          border-white/5
-          bg-[#202c33]
+          border-slate-200
+          bg-slate-50
           px-4
           py-3
         "
@@ -48,7 +48,7 @@ export default function WhatsAppPreview({
             rounded-full
             bg-[#25D366]
             font-bold
-            text-[#07170d]
+            text-emerald-950
           "
         >
           W
@@ -61,13 +61,13 @@ export default function WhatsAppPreview({
               truncate
               text-sm
               font-semibold
-              text-white
+              text-slate-900
             "
           >
             Preview da conversa
           </h2>
 
-          <p className="text-xs text-slate-400">
+          <p className="text-xs text-slate-500">
             online
           </p>
         </div>
@@ -78,7 +78,7 @@ export default function WhatsAppPreview({
             flex
             items-center
             gap-4
-            text-slate-300
+            text-slate-500
           "
         >
           <Video size={18} />
@@ -92,12 +92,12 @@ export default function WhatsAppPreview({
           flex
           min-h-[280px]
           items-end
-          bg-[#0b141a]
+          bg-[#efeae2]
           p-4
         "
         style={{
           backgroundImage:
-            'radial-gradient(rgba(255,255,255,0.035) 1px, transparent 1px)',
+            'radial-gradient(rgba(15,23,42,0.04) 1px, transparent 1px)',
           backgroundSize: '18px 18px',
         }}
       >
@@ -107,13 +107,13 @@ export default function WhatsAppPreview({
             max-w-[88%]
             rounded-2xl
             rounded-br-md
-            bg-[#005c4b]
+            bg-[#d9fdd3]
             px-3.5
             py-2.5
             text-sm
             leading-relaxed
-            text-white
-            shadow-lg
+            text-slate-900
+            shadow-sm
           "
         >
           <p
@@ -131,7 +131,7 @@ export default function WhatsAppPreview({
               flex
               justify-end
               text-[10px]
-              text-emerald-100/70
+              text-slate-500
             "
           >
             agora ✓✓
